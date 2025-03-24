@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
-from scipy.spatial import rotation
-from scipy.spatial import distance
+import scipy as sp
 
 class Particle:
     def __init__(self, element, position, velocity, force, charge, dipole):
